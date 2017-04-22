@@ -28,5 +28,5 @@ function getRandomArbitrary() {
 
 for (var i = 0; i < 100000; i++) {
 getRandomArbitrary();
-if (i === 99999) console.log((betterTotal / 1000) + "%");
+if (i === 99999) console.log("b: " + (betterTotal / 1000) + "%" + " d: " + (dealerTotal / 1000) + "%");
 }
