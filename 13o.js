@@ -26,7 +26,6 @@ function getRandomArbitrary() {
 	}
 }
 
-
 for (var i = 0; i < 100000; i++) {
 getRandomArbitrary();
 if (i === 99999) console.log((betterTotal / 1000) + "%");
